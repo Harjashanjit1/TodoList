@@ -85,7 +85,7 @@ sheet.innerHTML = "#" + li.id + " {color: red; text-decoration: line-through;}"
  document.body.appendChild(sheet)
 }
 )
-li.addEventListener('dbclick', () =>
+li.addEventListener('contextmenu', () =>
 {
  var sheet = document.createElement('style')
  
